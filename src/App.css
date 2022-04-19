@@ -1,0 +1,86 @@
+:root {
+    --note-margin-left: 35rem;
+    --note-margin-top: 9rem;
+    --search-box-font-size: 1.5rem;
+    --search-box-size: 4rem;
+    --search-box-margin-left: 1rem;
+    --padding-note: 1rem;
+    --search-box-width: 35rem;
+    --note-pad-width: 41rem;
+}
+
+.main-box {
+    display: flex;
+}
+
+.App {
+    text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.note-page {
+    font-size: 62.5%;
+    flex-grow: 1;
+    max-width: 100%;
+    margin-left: var( --note-margin-left);
+}
+
+.white-box {
+    background-color: white;
+}
+
+.red-box {
+    background: #F08080;
+}
+
+.blue-box {
+    background-color: #87CEEB;
+}
+
+.green-box {
+    background-color: #98FB98;
+}
+
+.cream-box {
+    background-color: #FFFDD0;
+}
+
+@media only screen and (max-width: 930px) {
+    .note-page {
+        font-size: 55%;
+        margin-left: 30rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .note-page {
+        font-size: 50%;
+        margin-left: 25rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .note-page {
+        font-size: 45%;
+        margin-left: 20rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .note-page {
+        font-size: 40%;
+        margin-left: 20rem;
+    }
+}
